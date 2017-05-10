@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0674E4541DB464A89C50B836 /* libPods-BBBannerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DA6B7CD4C929749F217017 /* libPods-BBBannerView.a */; };
 		70A0AF581EC2C67B000DF09E /* BBBannerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A0AF4E1EC2C67B000DF09E /* BBBannerView.framework */; };
 		70A0AF5D1EC2C67B000DF09E /* BBBannerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A0AF5C1EC2C67B000DF09E /* BBBannerViewTests.m */; };
 		70A0AF5F1EC2C67B000DF09E /* BBBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A0AF511EC2C67B000DF09E /* BBBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,12 +25,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11DA6B7CD4C929749F217017 /* libPods-BBBannerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBBannerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A0AF4E1EC2C67B000DF09E /* BBBannerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BBBannerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A0AF511EC2C67B000DF09E /* BBBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBBannerView.h; sourceTree = "<group>"; };
 		70A0AF571EC2C67B000DF09E /* BBBannerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBBannerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A0AF5C1EC2C67B000DF09E /* BBBannerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBBannerViewTests.m; sourceTree = "<group>"; };
 		70A0AF5E1EC2C67B000DF09E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70A0AFE71EC2E002000DF09E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74AD29F1D72B85A2D929AC12 /* Pods-BBBannerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBBannerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBBannerView/Pods-BBBannerView.release.xcconfig"; sourceTree = "<group>"; };
+		CED5A308487957E3709389F1 /* Pods-BBBannerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBBannerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBBannerView/Pods-BBBannerView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0674E4541DB464A89C50B836 /* libPods-BBBannerView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +63,8 @@
 				70A0AFE61EC2E002000DF09E /* Supporting Files */,
 				70A0AF5B1EC2C67B000DF09E /* BBBannerViewTests */,
 				70A0AF4F1EC2C67B000DF09E /* Products */,
+				BC882F955D53AECD9DB90D78 /* Pods */,
+				7D75BAFD7900A58C97434AC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +102,23 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7D75BAFD7900A58C97434AC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11DA6B7CD4C929749F217017 /* libPods-BBBannerView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC882F955D53AECD9DB90D78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CED5A308487957E3709389F1 /* Pods-BBBannerView.debug.xcconfig */,
+				74AD29F1D72B85A2D929AC12 /* Pods-BBBannerView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -113,10 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70A0AF621EC2C67B000DF09E /* Build configuration list for PBXNativeTarget "BBBannerView" */;
 			buildPhases = (
+				4EFD22C7F459ADC6323B9FC7 /* [CP] Check Pods Manifest.lock */,
 				70A0AF491EC2C67B000DF09E /* Sources */,
 				70A0AF4A1EC2C67B000DF09E /* Frameworks */,
 				70A0AF4B1EC2C67B000DF09E /* Headers */,
 				70A0AF4C1EC2C67B000DF09E /* Resources */,
+				0CDCC4869048947A3B8901C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +225,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CDCC4869048947A3B8901C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBBannerView/Pods-BBBannerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EFD22C7F459ADC6323B9FC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		70A0AF491EC2C67B000DF09E /* Sources */ = {
@@ -327,6 +386,7 @@
 		};
 		70A0AF631EC2C67B000DF09E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED5A308487957E3709389F1 /* Pods-BBBannerView.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -345,6 +405,7 @@
 		};
 		70A0AF641EC2C67B000DF09E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74AD29F1D72B85A2D929AC12 /* Pods-BBBannerView.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
