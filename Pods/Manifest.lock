@@ -1,0 +1,16 @@
+PODS:
+  - BBBannerView (0.0.1)
+
+DEPENDENCIES:
+  - BBBannerView (from `./`)
+
+EXTERNAL SOURCES:
+  BBBannerView:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  BBBannerView: '09fafe39a037aa52b116a7053c8925a2cf61582e'
+
+PODFILE CHECKSUM: ffa3ba870c7913b32b972c34e6264bffa16db5ad
+
+COCOAPODS: 1.2.0
